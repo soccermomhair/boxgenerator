@@ -13,6 +13,15 @@
   }
 }
 
+.stybox {
+  margin: 5px;
+  padding: 20px;
+  display: inline-block;
+  justify-content: center;
+  border: 2px dotted blue;
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
